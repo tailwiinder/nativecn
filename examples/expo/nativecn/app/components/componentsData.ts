@@ -95,6 +95,13 @@ const componentsData: ComponentInfo[] = [
     icon: 'bell',
     category: 'Input',
   },
+  {
+    id: 'Skeleton',
+    name: 'Skeleton',
+    description: 'Use to show a placeholder while content is loading.',
+    icon: 'loader',
+    category: 'Layout',
+  },
   // Future components can be added here
 ];
 

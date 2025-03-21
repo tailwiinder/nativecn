@@ -17,6 +17,7 @@ import BreadcrumbShowcase from './showcases/BreadcrumbShowcase';
 import CardShowcase from './showcases/CardShowcase';
 import CarouselShowcase from './showcases/CarouselShowcase';
 import OTPInputShowCase from './showcases/InputOtpShowCase';
+import SkeletonShowcase from './showcases/SkeletonShowcase';
 
 // Component mapping for dynamic rendering
 const COMPONENT_SHOWCASES: Record<string, React.ComponentType> = {
@@ -31,6 +32,7 @@ const COMPONENT_SHOWCASES: Record<string, React.ComponentType> = {
   card: CardShowcase,
   carousel: CarouselShowcase,
   OTPInput: OTPInputShowCase,
+  Skeleton: SkeletonShowcase,
 };
 
 export default function ComponentDetails() {
